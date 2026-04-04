@@ -103,11 +103,11 @@ class LLamadaProvincial : LLamada
 // ============================================================
 class ConexionBD
 {
-    // ⚠️ Cambia estos datos según tu MySQL
+
     private static string servidor  = "localhost";
     private static string baseDatos = "CentralitaTelefonica";
     private static string usuario   = "root";
-    private static string contrasena = "";  // tu contraseña de MySQL
+    private static string contrasena = "";  
 
     private static string cadenaConexion =
         $"Server={servidor};Database={baseDatos};" +
