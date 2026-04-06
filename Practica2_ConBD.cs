@@ -103,7 +103,11 @@ class LLamadaProvincial : LLamada
 // ============================================================
 class ConexionBD
 {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 47848fd2ae95cb949927fa0ec81e313209f96824
     private static string servidor  = "localhost";
     private static string baseDatos = "CentralitaTelefonica";
     private static string usuario   = "root";
